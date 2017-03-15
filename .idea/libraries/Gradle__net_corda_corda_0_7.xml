@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: net.corda:corda:0.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/corda/corda/0.7/corda-0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

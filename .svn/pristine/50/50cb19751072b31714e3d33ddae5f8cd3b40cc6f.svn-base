@@ -1,0 +1,20 @@
+package com.capgemini.kycapp.app;
+
+
+/*
+@SpringBootApplication
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan("com.capgemini.kycapp")*/
+public class App{
+/*
+    public static void main(String[] args) throws Exception{
+        SpringApplication.run(App.class, args);
+    }
+    
+    @Bean
+    public RestTemplate geRestTemplate() {
+        return new RestTemplate();
+    }*/
+}
+

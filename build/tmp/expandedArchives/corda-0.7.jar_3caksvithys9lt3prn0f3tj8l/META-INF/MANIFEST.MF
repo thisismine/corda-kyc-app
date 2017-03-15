@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Application-Class: net.corda.node.MainKt
+Min-Java-Version: 1.8.0
+App-Class-Path: jolokia-agent-war-2.0.0-M3.war
+Java-Agents: quasar-core-0.7.6-jdk8.jar
+Caplets: CordaCaplet
+Premain-Class: Capsule
+Main-Class: Capsule
+

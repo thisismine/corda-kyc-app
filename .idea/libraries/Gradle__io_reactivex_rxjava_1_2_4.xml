@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: io.reactivex:rxjava:1.2.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.4/rxjava-1.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,204 @@
+package com.capgemini.kycapp.contract;
+
+import com.capgemini.kycapp.model.UserKycInfo;
+import kotlin.Unit;
+import net.corda.core.Utils;
+import net.corda.core.contracts.*;
+import net.corda.core.contracts.TransactionForContract.InOutGroup;
+import net.corda.core.contracts.clauses.*;
+import net.corda.core.crypto.SecureHash;
+
+import java.text.DateFormat;
+import java.time.Instant;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+import java.util.*;
+
+import static java.util.Objects.requireNonNull;
+import static java.util.stream.Collectors.toList;
+import static kotlin.collections.CollectionsKt.single;
+import static net.corda.core.contracts.ContractsDSL.requireSingleCommand;
+import static net.corda.core.contracts.ContractsDSL.requireThat;
+
+
+public class KycContract implements Contract {
+    /**
+     * This is a reference to the underlying legal contract template and associated parameters.
+     */
+    private final SecureHash legalContractReference = SecureHash.sha256("kyc contract template and params");
+
+    @Override
+    public final SecureHash getLegalContractReference()
+    {
+        return legalContractReference;
+    }
+
+    /**
+     * Filters the command list by type, party and public key all at once.
+     */
+    private List<AuthenticatedObject<Commands>> extractCommands(TransactionForContract tx) {
+        return tx.getCommands()
+                .stream()
+                .filter(command -> command.getValue() instanceof Commands)
+                .map(command -> new AuthenticatedObject<>(
+                        command.getSigners(),
+                        command.getSigningParties(),
+                        (Commands) command.getValue()))
+                .collect(toList());
+    }
+
+    /**
+     * The AllComposition() clause mandates that all specified clauses clauses (in this case [Timestamped] and [Group])
+     * must be executed and valid for a transaction involving this type of contract to be valid.
+     */
+    @Override
+    public void verify(TransactionForContract tx)
+    {
+    	//Compile time ERROR in Eclipse
+        /*ClauseVerifier.verifyClause(
+                tx,
+                new AllComposition<>(new Clauses.Timestamp(), new Clauses.Group()),
+                extractCommands(tx));*/
+    	AllComposition com = new AllComposition<>(new Clauses.Timestamp(), new Clauses.Group());
+        ClauseVerifier.verifyClause(tx,com,extractCommands(tx));
+    }
+
+    /**
+     * Currently this contract only implements one command. If you wish to add further commands to perhaps Amend() or
+     * Cancel() a purchase order, you would add them here. You would then need to add associated clauses to handle
+     * transaction verification for the new commands.
+     */
+    public interface Commands extends CommandData {
+        class Place implements IssueCommand, Commands {
+            private final long nonce = Utils.random63BitValue();
+            @Override public long getNonce() { return nonce; }
+        }
+    }
+
+    /**
+     * This is where we implement our clauses.
+     */
+    public interface Clauses
+    {
+        /**
+         * Checks for the existence of a timestamp.
+         */
+        class Timestamp extends Clause<ContractState, Commands, Unit>
+        {
+            @Override
+            public Set<Commands> verify(TransactionForContract tx,
+                List<? extends ContractState> inputs,
+                List<? extends ContractState> outputs,
+                List<? extends AuthenticatedObject<? extends Commands>> commands,
+                Unit groupingKey)
+            {
+
+                requireNonNull(tx.getTimestamp(), "must be timestamped");
+
+                // We return an empty set because we don't process any commands
+                return Collections.emptySet();
+            }
+        }
+
+        // If you add additional clauses, make sure to reference them within the 'FirstComposition()' clause.
+        class Group extends GroupClauseVerifier<KycState, Commands, UniqueIdentifier>
+        {
+            public Group()
+            {
+                super(new FirstComposition<>(new Clauses.Place()));
+            }
+            @Override
+            public List<InOutGroup<KycState, UniqueIdentifier>> groupStates(TransactionForContract tx)
+            {
+                // Group by purchase order linearId for in/out states.
+                return tx.groupStates(KycState.class, KycState::getLinearId);
+            }
+        }
+
+        /**
+         * Checks various requirements for the placement of a purchase order.
+         */
+        class Place extends Clause<KycState, Commands, UniqueIdentifier>
+        {
+            @Override
+            public Set<Class<? extends CommandData>> getRequiredCommands()
+            {
+                return Collections.singleton(Commands.Place.class);
+            }
+
+            @Override
+            public Set<Commands> verify(TransactionForContract tx,
+                List<? extends KycState> inputs,
+                List<? extends KycState> outputs,
+                List<? extends AuthenticatedObject<? extends Commands>> commands,
+                UniqueIdentifier groupingKey)
+            {
+                final AuthenticatedObject<Commands.Place> command = requireSingleCommand(tx.getCommands(), Commands.Place.class);
+                final KycState out = single(outputs);
+                final Instant time = tx.getTimestamp().getMidpoint();
+
+                /*Calendar currentDateCal = Calendar.getInstance();
+                currentDateCal.set(Calendar.HOUR_OF_DAY, 0);
+                currentDateCal.set(Calendar.MINUTE, 0);
+                currentDateCal.set(Calendar.SECOND, 0);
+                currentDateCal.set(Calendar.MILLISECOND, 0);*/
+
+                requireThat(require -> {
+                    // Generic constraints around generation of the issue purchase order transaction.
+                    require.by("No inputs should be consumed when issuing a purchase order.",
+                            inputs.isEmpty());
+                   /* require.by("Only one output state should be created for each group.",
+                            outputs.size() == 1);
+                    require.by("The buyer and the seller cannot be the same entity.",
+                            out.getBuyer() != out.getSeller());
+                    require.by("All of the participants must be signers.",
+                            command.getSigners().containsAll(out.getParticipants()));*/
+
+                    // Purchase order specific constraints.
+                    /*require.by("We only deliver to the UK.",
+                            out.getUserKycInfo().getDeliveryAddress().getCountry().equals("UK"));
+                    require.by("You must order at least one type of item.",
+                            !out.getUserKycInfo().getItems().isEmpty());
+                    requir.by("You cannot order zero or negative amounts of an item.",
+                            out.getUserKycInfo().getItems().stream().allMatch(item -> item.getAmount() > 0));e*/
+
+                    /*require.by("You can only order up to 100 items in total.",
+                            out.getUserKycInfo().getAadharNumber() <= 10);
+                    require.by("The delivery date must be in the future.",
+                            out.getUserKycInfo().getkYCExpiryDate().toInstant().isAfter(time));*/
+
+                   /* Date kycCreateDate = out.getUserKycInfo().getKycCreateDate();
+                    Calendar calendar1 = Calendar.getInstance();
+                    calendar1.setTime(kycCreateDate);
+                    calendar1.set(Calendar.HOUR_OF_DAY, 0);
+                    calendar1.set(Calendar.MINUTE, 0);
+                    calendar1.set(Calendar.SECOND, 0);
+                    calendar1.set(Calendar.MILLISECOND, 0);
+
+                    require.by("The KYC creation date must be current Date.",
+                       calendar1.getTime().compareTo(currentDateCal.getTime()) == 0 ? Boolean.TRUE : Boolean.FALSE);
+
+                    // calculate future date
+                    currentDateCal.add(Calendar.YEAR, 1);
+                    Date futureYearDate = currentDateCal.getTime();
+
+                    Date kycValidTillDate = out.getUserKycInfo().getKycValidTillDate();
+                    Calendar calendar2 = Calendar.getInstance();
+                    calendar2.setTime(kycValidTillDate);
+                    calendar2.set(Calendar.HOUR_OF_DAY, 0);
+                    calendar2.set(Calendar.MINUTE, 0);
+                    calendar2.set(Calendar.SECOND, 0);
+                    calendar2.set(Calendar.MILLISECOND, 0);
+
+                    require.by("The KYC_VALID_TILL_DATE should be current date + 1 year.",
+                            calendar2.getTime().compareTo(futureYearDate) == 0 ? Boolean.TRUE : Boolean.FALSE);*/
+
+                    return null;
+                });
+
+                return Collections.singleton(command.getValue());
+            }
+        }
+    }
+}

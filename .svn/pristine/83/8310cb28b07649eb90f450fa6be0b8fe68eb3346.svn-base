@@ -1,0 +1,1223 @@
+[INFO ] 2017-03-01T03:36:52,923 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10000",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NetworkMapService/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10001"
+}
+
+[INFO ] 2017-03-01T03:36:52,961 [main] DriverDSL - Starting network-map-service
+[INFO ] 2017-03-01T03:36:55,683 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10002",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\Controller/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "corda.notary.validating",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10003"
+}
+
+[INFO ] 2017-03-01T03:36:57,789 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10004",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NodeA/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10005"
+}
+
+[INFO ] 2017-03-01T03:36:59,945 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10006",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NodeB/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10007"
+}
+
+[INFO ] 2017-03-01T03:37:02,300 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10008",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301033652\\NodeC/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10009"
+}
+
+[INFO ] 2017-03-01T06:20:18,373 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10000",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NetworkMapService/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10001"
+}
+
+[INFO ] 2017-03-01T06:20:18,388 [main] DriverDSL - Starting network-map-service
+[INFO ] 2017-03-01T06:20:22,198 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10002",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\Controller/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "corda.notary.validating",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10003"
+}
+
+[INFO ] 2017-03-01T06:20:24,390 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10004",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NodeA/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10005"
+}
+
+[INFO ] 2017-03-01T06:20:26,583 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10006",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NodeB/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10007"
+}
+
+[INFO ] 2017-03-01T06:20:28,782 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10008",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301062017\\NodeC/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10009"
+}
+
+[INFO ] 2017-03-01T13:13:06,339 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10000",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NetworkMapService/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10001"
+}
+
+[INFO ] 2017-03-01T13:13:06,342 [main] DriverDSL - Starting network-map-service
+[INFO ] 2017-03-01T13:13:09,023 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10002",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\Controller/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "corda.notary.validating",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10003"
+}
+
+[INFO ] 2017-03-01T13:13:11,098 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10004",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NodeA/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10005"
+}
+
+[INFO ] 2017-03-01T13:13:13,216 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10006",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NodeB/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10007"
+}
+
+[INFO ] 2017-03-01T13:13:15,427 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10008",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131306\\NodeC/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10009"
+}
+
+[ERROR] 2017-03-01T13:16:38,095 [pool-2-thread-1] DriverDSL - Could not query node info at http://localhost:10007/api/info due to an exception.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_111]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_111]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_111]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_111]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.8.0_111]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.8.0_111]
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:667) ~[?:1.8.0_111]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569) ~[?:1.8.0_111]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[?:1.8.0_111]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_111]
+	at net.corda.node.driver.DriverDSL.queryNodeInfo(Driver.kt:326) [node-0.7.jar:?]
+	at net.corda.node.driver.DriverDSL.access$queryNodeInfo(Driver.kt:257) [node-0.7.jar:?]
+	at net.corda.node.driver.DriverDSL$startNode$1.invoke(Driver.kt:379) [node-0.7.jar:?]
+	at net.corda.node.driver.DriverDSL$startNode$1.invoke(Driver.kt:257) [node-0.7.jar:?]
+	at net.corda.core.Utils$map$1.apply(Utils.kt:107) [core-0.7.jar:?]
+	at com.google.common.util.concurrent.Futures$ChainingFuture.doTransform(Futures.java:1464) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.Futures$ChainingFuture.doTransform(Futures.java:1453) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.Futures$AbstractChainingFuture.run(Futures.java:1408) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:456) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:817) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:753) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:613) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.Futures$ChainingFuture.doTransform(Futures.java:1464) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.Futures$ChainingFuture.doTransform(Futures.java:1453) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.Futures$AbstractChainingFuture.run(Futures.java:1408) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:456) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:817) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:753) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:613) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.CollectionFuture$CollectionFutureRunningState.handleAllCompleted(CollectionFuture.java:76) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState.processCompleted(AggregateFuture.java:255) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState.decrementCountAndMaybeComplete(AggregateFuture.java:242) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState.access$300(AggregateFuture.java:91) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState$1.run(AggregateFuture.java:146) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:456) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:817) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:753) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:613) [guava-19.0.jar:?]
+	at com.google.common.util.concurrent.SettableFuture.set(SettableFuture.java:49) [guava-19.0.jar:?]
+	at net.corda.node.driver.Driver$poll$1$1.run(Driver.kt:249) [node-0.7.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_111]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_111]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_111]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+[INFO ] 2017-03-01T13:18:53,272 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10000",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NetworkMapService/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NetworkMapService",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10001"
+}
+
+[INFO ] 2017-03-01T13:18:53,275 [main] DriverDSL - Starting network-map-service
+[INFO ] 2017-03-01T13:18:55,951 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10002",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\Controller/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "corda.notary.validating",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "Controller",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10003"
+}
+
+[INFO ] 2017-03-01T13:18:58,086 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10004",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NodeA/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeA",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10005"
+}
+
+[INFO ] 2017-03-01T13:19:00,257 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10006",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NodeB/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeB",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10007"
+}
+
+[INFO ] 2017-03-01T13:19:02,299 [main] ConfigHelper - Config:
+ {
+    # hardcoded value
+    "artemisAddress" : "localhost:10008",
+    # hardcoded value
+    "basedir" : "D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 9,reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:D:\\Updated_Workspace\\corda-kyc-app\\build\\20170301131853\\NodeC/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=0;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # hardcoded value
+    "extraAdvertisedServiceIds" : "",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # hardcoded value
+    "myLegalName" : "NodeC",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 2
+    "nearestCity" : "London",
+    # hardcoded value
+    "networkMapService" : {
+        # hardcoded value
+        "address" : "localhost:10000",
+        # hardcoded value
+        "legalName" : "NetworkMapService"
+    },
+    # hardcoded value
+    "rpcUsers" : [
+        # hardcoded value
+        {
+            # hardcoded value
+            "password" : "test",
+            # hardcoded value
+            "permissions" : [],
+            # hardcoded value
+            "user" : "user1"
+        }
+    ],
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/C:/Users/dmotwani/.m2/repository/net/corda/node/0.7/node-0.7.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # hardcoded value
+    "useTestClock" : false,
+    # hardcoded value
+    "webAddress" : "localhost:10009"
+}
+

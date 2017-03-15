@@ -1,0 +1,43 @@
+<div class="container-fluid header-outer">
+
+	<div class="row">
+		<header class="menubar navbar-fixed-top">
+			<div >
+				<div class="row">
+					<div class="col-md-6">
+						<div class="pull-left fdfdf">
+							<img src="/images/App-Logo-Main.png">
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="login-box col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 marginBottom20">
+		<h3 class="pageTitle">Login</h3>
+		<p>Welcome : <span>{{userId}}</span></p>
+
+		<form name="loginForm" novalidate>
+			<p class="text-danger"><b>{{error}}</b></p>
+				<div class="form-group">
+				<label for="userId">Email Id</label>
+				<input type="text" class="form-control" name="userId" ng-model="userId" required>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" class="form-control"  name="password" ng-model="password" required>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid"  ng-click="login()">
+					Login
+				</button>
+			</div>
+			
+		</form>
+	</div>
+</div>
+

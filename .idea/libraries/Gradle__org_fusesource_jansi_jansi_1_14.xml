@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.fusesource.jansi:jansi:1.14">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/fusesource/jansi/jansi/1.14/jansi-1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

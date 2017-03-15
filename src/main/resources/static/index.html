@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bcloyalty">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Welcome to Loyalty App</title>
+
+		<!-- Bootstrap -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="/css/font-awesome.css" rel="stylesheet">
+	    <link href="/css/bootstrap-social.css" rel="stylesheet">
+		<link href="/css/main.css" rel="stylesheet">
+		<!-- scroll file included -->
+		<link href="/css/angular-ui-tab-scroll.css" rel="stylesheet">
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="loaderDiv" loader>
+			<div id="content"><span class="expand"></span></div>
+			<div id="fountainTextG" >
+				<div id="fountainTextG_1" class="fountainTextG">&nbsp;</div>
+				<div id="fountainTextG_1" class="fountainTextG">&nbsp;</div>
+				<div id="fountainTextG_1" class="fountainTextG">&nbsp;</div>
+				<div id="fountainTextG_1" class="fountainTextG">&nbsp;</div>
+				<div id="fountainTextG_1" class="fountainTextG">L</div>
+				<div id="fountainTextG_2" class="fountainTextG">o</div>
+				<div id="fountainTextG_3" class="fountainTextG">a</div>
+				<div id="fountainTextG_4" class="fountainTextG">d</div>
+				<div id="fountainTextG_5" class="fountainTextG">i</div>
+				<div id="fountainTextG_6" class="fountainTextG">n</div>
+				<div id="fountainTextG_7" class="fountainTextG">g</div>
+				<div id="fountainTextG_8" class="fountainTextG">.</div>
+				<div id="fountainTextG_9" class="fountainTextG">.</div>
+				<div id="fountainTextG_10" class="fountainTextG">.</div>
+			</div>
+		</div>
+		<div class="container">
+		<div>
+			<div public-header>	</div>
+		</div>
+			<div style="height:100%;" ui-view></div>
+
+
+
+			<div footer-directive></div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="/js/lib/jquery.min.js"></script>
+		
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/js/lib/bootstrap_3.2.0.js"></script>
+
+		<!-- Angular js -->
+		<script src="/js/lib/angular.min.js"></script>
+		<script src="/js/lib/angular-ui-router.min.js"></script>
+	    <script src="/js/lib/ui-bootstrap-tpls-1.3.3.js"></script>
+
+		<!-- scroll file included -->
+		<script src="/js/lib/angular-ui-tab-scroll.js"></script>
+
+	    <script src="/js/lib/angular-animate.js"></script>
+		<script src="/js/app.js"></script>
+	
+		<!-- services -->
+		<script src="/js/services/loginService.js"></script>
+		<script src="/js/services/sessionService.js"></script>
+		<script src="/js/services/userDataService.js"></script>
+		<!-- controllers -->
+		<script src="/js/controllers/loginCtrl.js"></script>
+		<script src="/js/controllers/headerCtrl.js"></script>
+		<script src="/js/controllers/footerCtrl.js"></script>
+		
+
+		<script src="/js/controllers/searchCtrl.js"></script>
+		<script src="/js/controllers/kycmainCtrl.js"></script>
+		<!-- Directives -->
+		<script src="/js/customDirectives.js"></script>
+
+	</body>
+</html>
+

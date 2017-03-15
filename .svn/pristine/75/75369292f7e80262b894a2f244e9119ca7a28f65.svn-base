@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.activemq:artemis-jms-client:1.5.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-jms-client/1.5.1/6808c254c3f8970fff965166cdbc21b3d657c037/artemis-jms-client-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-jms-client/1.5.1/fde6ece67d76cc71638e465361744712a9a7ad3a/artemis-jms-client-1.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-jms-client/1.5.1/b80c108689dca0292e8c74e606c6e67129b8c818/artemis-jms-client-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

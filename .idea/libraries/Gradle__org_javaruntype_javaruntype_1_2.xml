@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.javaruntype:javaruntype:1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/javaruntype/javaruntype/1.2/javaruntype-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

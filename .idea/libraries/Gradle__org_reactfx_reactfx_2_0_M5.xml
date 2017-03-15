@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.reactfx:reactfx:2.0-M5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactfx/reactfx/2.0-M5/reactfx-2.0-M5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
